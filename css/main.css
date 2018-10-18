@@ -37,33 +37,34 @@ footer {
   font-size: .75rem;
 }
 
-.Buttons {
+.buttons {
   margin: 0;
   padding: 0;
   list-style-type: none;
   text-align: center;
 }
 
-.Buttons li{
+li {
   display: inline-block;
-  margin: .3em;
+  margin-bottom: .3em;
+}
+
+a {
   padding: .2em .5em .3em;
   border-radius: 4px;
   text-align: center;
   font-size: 1.125rem;
   background-color: #b2a212;
-}
-
-a {
+  margin: 0em;
   color: #fff;
   text-decoration: none;
 }
 
-.Buttons li, .current{
+.current {
   background-color: #cc1465;
   color: #fff;
 }
 
-.Buttons li:hover {
+.buttons a:hover {
   background-color: #cc1465;
 }
