@@ -1,0 +1,54 @@
+html {
+  background-color: #f000;
+  box-sizing: border-box;
+  font-family: Georgia, serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Sigmar One', serif;
+  font-size: 3rem;
+  font-weight: bold;
+}
+header {
+  background-color: #ffe500;
+}
+
+.Buttons {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+.Buttons li {
+  display: inline-block;
+  margin: 0 .5em 1em;
+  max-width: 20em;
+  padding: 1em;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.Buttons li{
+  display: inline-block;
+  padding: .5em .75em;
+  background-color: #b2a212;
+  color: #fff;
+  text-decoration: none;
+}
+
+.Buttons .current {
+  background-color: #b20953;
+  color: #fff;
+}
+
+.Buttons li:hover {
+  background-color: #b20953;
+  color: #fff;
+}
